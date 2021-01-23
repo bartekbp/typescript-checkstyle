@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2015"
+    ],
+    "downlevelIteration": true,
+    "rootDir": "src"
+  },
+  "paths": {
+    "*":  [
+      "./types/*",
+      "./*"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/jest-xml-matcher/index.d.ts"
+  ]
+}

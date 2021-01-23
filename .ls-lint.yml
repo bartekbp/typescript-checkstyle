@@ -1,0 +1,7 @@
+ls:
+  src:
+    .dir: camelCase
+    .ts: camelCase | regex:.*\.test
+
+ignore:
+  - src/types

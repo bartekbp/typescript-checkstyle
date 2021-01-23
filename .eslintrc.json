@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": 1,
+    "quotes": ["warn", "single"]
+  },
+  "env": {
+    "es6": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "outDir": "dist",
+  "rootDir": "src",
+  "include": [
+    "src/index.ts",
+    "src/cli.ts",
+    "src/types/**/*.ts",
+    "node_modules/jest-xml-matcher/index.d.ts"
+  ]
+}
