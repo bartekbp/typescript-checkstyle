@@ -1,6 +1,6 @@
 {
   "name": "@bartekbp/typescript-checkstyle",
-  "version": "3.0.0-0",
+  "version": "3.0.0",
   "description": "Library reporting tsc output in checkstyle format",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
